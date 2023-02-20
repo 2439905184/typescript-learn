@@ -2,7 +2,7 @@ const { template } = require('lodash');
 const path = require('path');
 
 module.exports = {
-  mode: "development",
+  mode: "production",
   entry: ['./src/hello.ts','./src/main.ts'],
   module: {
     rules: [

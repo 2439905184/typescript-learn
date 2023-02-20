@@ -1,2 +1,8 @@
-import h = require("./hello")
-console.log(new h.Hello().hello())
+import { Hello } from "./hello"
+var hello = new Hello()
+hello.hello()
+
+export function test()
+{
+    alert("test")
+}
